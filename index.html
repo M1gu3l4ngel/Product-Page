@@ -28,58 +28,137 @@
     <script src="https://kit.fontawesome.com/5de37ddf45.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="height: 100%;">
-
+<body>
     <main>
-        <div style="position: relative;background: #404eed;min-height: 626px;overflow: hidden;">
-            <nav class="navbar navbar-light navbar-expand-md py-3">
-                <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img
-                            src="assets/img/discord-logo-blanco.png" style="height: 35px;"></a><button
-                        data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span
-                            class="visually-hidden">Toggle navigation</span><span
-                            class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-3">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link active"
-                                    href="#">Descargar</a></li>
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#">Nitro</a>
+        <div class="container-1">
+            <nav class="navbar navbar-light navbar-expand-md main__nav">
+                <div class="container container__main">
+
+                    <a class="navbar-brand main__logo" href="#">
+                        <img src="assets/img/discord-logo-blanco.png">
+                    </a>
+
+                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3">
+                        <span class="visually-hidden">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse main__contlink" id="navcol-3">
+                        <ul class="navbar-nav">
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link active" href="#">Descargar</a>
                             </li>
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#">Descubrir</a>
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link" href="#">Nitro</a>
                             </li>
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#">Seguridad</a>
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link" href="#">Descubrir</a>
                             </li>
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#">Soporte
-                                    técnico</a></li>
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#">Blog</a></li>
-                            <li class="nav-item" style="padding-right: 20px;"><a class="nav-link" href="#">Empleos</a>
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link" href="#">Seguridad</a>
                             </li>
-                        </ul><button class="btn btn-primary" type="button">Iniciar sesión</button>
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link" href="#">Soporte técnico</a>
+                            </li>
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item main__listitem">
+                                <a class="nav-link" href="#">Empleos</a>
+                            </li>
+                        </ul>
+                        <div class="btn-cont">
+                            <a href="#" class="btn-info">Iniciar sesión</a>
+                        </div>
                     </div>
+
                 </div>
             </nav>
-            <section class="py-4 py-xl-5">
-                <div class="container h-100">
-                    <div class="row h-100">
+
+            <section class="main__section py-xl-5">
+                <div class="container main__continfo">
+                    <div class="row main__fila">
                         <div
-                            class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
-                            <div>
-                                <h2 class="text-uppercase fw-bold mb-3" style="font-size: 56px;"><br><strong><span
-                                            style="color: rgb(255, 255, 255);">IMAGINA UN LUGAR...</span></strong><br>
-                                </h2>
-                                <p class="mb-4" style="font-size: 20px;"><br><span
-                                        style="color: rgb(255, 255, 255);">... en el que puedas formar parte de un club
-                                        escolar, un grupo de jugadores o una comunidad mundial de arte. En el que puedas
-                                        pasar tiempo con unos cuantos amigos. Un lugar que haga que hablar a diario y
-                                        divertirte más a menudo sea fácil.</span><br></p><button
-                                    class="btn btn-primary fs-5 me-2 py-2 px-4" type="button">Descargar para
-                                    Windows</button><button class="btn btn-outline-primary fs-5 py-2 px-4"
-                                    type="button">Abrir Discord en tu navegador</button>
+                            class="col-md-10 col-xl-8 d-sm-flex d-md-flex justify-content-md-start align-items-md-center justify-content-xl-center main__info">
+                            <div class="main__contenido">
+                                <h1 class="main__h1">
+                                    IMAGINA UN LUGAR...
+                                </h1>
+
+                                <div class="main__p">
+                                    ... en el que puedas formar parte de un club
+                                    escolar, un grupo de jugadores o una comunidad mundial de arte. En el que puedas
+                                    pasar tiempo con unos cuantos amigos. Un lugar que haga que hablar a diario y
+                                    divertirte más a menudo sea fácil.
+                                </div>
+
+                                <div class="main-btn__cont">
+                                    <a href="#" class="main__btn1"><i class='bx bx-download downloadbtn'></i> Descargar
+                                        para Windows</a>
+                                    <a href="#" class="main__btn2">Abrir Discord en tu navegador</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </section><img src="assets/img/leftimg-main.svg"><img src="assets/img/rightimg-main.svg">
+            </section>
+            <img src="assets/img/montañas.svg" class="main__montana">
+            <img src="assets/img/leftimg-main.svg" class="main__leftimg">
+            <img src="assets/img/rightimg-main.svg" class="main__rightimg">
         </div>
+
+
+
+
+        <!-- =========================== -->
+        <!-- ====== Editando Aqui ====== -->
+        <!-- =========================== -->
+        <section class="container py-4 py-xl-5">
+            <div class="row gy-4 gy-md-0">
+                <div class="col-md-6">
+                    <img class="rounded img-fluid w-100 fit-cover" src="assets/img/study.svg"
+                        style="min-height: 300px;">
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-center" style="height: 418.328px;">
+                    <div style="max-width: 350px;">
+                        <h2 class="text-uppercase fw-bold" style="font-size: 42px;margin-top: 18px;">
+                            <strong>
+                                <span style="color: rgb(35, 39, 42);">
+                                    Crea un lugar solo para miembros en el que encajes
+                                </span>
+                            </strong>
+                            <br>
+                        </h2>
+                        <p class="my-3" style="font-size: 20px;">
+                            <span style="color: rgb(35, 39, 42);">
+                                Los servidores de Discord se organizan en canales ordenados por temas donde puedes
+                                colaborar, compartir o
+                                simplemente hablar de tu día sin monopolizar un chat de grupo.
+                            </span>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
     </main>
 
 

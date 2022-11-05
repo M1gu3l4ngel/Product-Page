@@ -4079,41 +4079,41 @@ body {
   body main {
     height: 100%;
     width: 100%;
-    overflow-x: hidden; }
-    body main .container-1 {
+    background-color: #fff; }
+    body main .section-nav {
       position: relative;
       background: #404eed;
       min-height: 626px;
       overflow: hidden;
       z-index: 1; }
-      body main .container-1 .main__nav {
+      body main .section-nav .main__nav {
         padding-top: 1rem;
         padding-bottom: 1rem;
         z-index: 1; }
-        body main .container-1 .main__nav .container__main {
+        body main .section-nav .main__nav .container__main {
           display: flex;
           flex-wrap: inherit;
           align-items: center;
           justify-content: space-between; }
-          body main .container-1 .main__nav .container__main .main__logo {
+          body main .section-nav .main__nav .container__main .main__logo {
             display: flex;
             align-items: center; }
-            body main .container-1 .main__nav .container__main .main__logo img {
+            body main .section-nav .main__nav .container__main .main__logo img {
               height: 35px; }
-          body main .container-1 .main__nav .container__main .main__contlink ul {
+          body main .section-nav .main__nav .container__main .main__contlink ul {
             margin-right: auto;
             margin-left: auto; }
-            body main .container-1 .main__nav .container__main .main__contlink ul .main__listitem {
+            body main .section-nav .main__nav .container__main .main__contlink ul .main__listitem {
               padding-right: 20px; }
-              body main .container-1 .main__nav .container__main .main__contlink ul .main__listitem a {
+              body main .section-nav .main__nav .container__main .main__contlink ul .main__listitem a {
                 color: #fff;
                 font-size: 16px;
                 font-weight: 500;
                 white-space: nowrap; }
-                body main .container-1 .main__nav .container__main .main__contlink ul .main__listitem a:hover {
+                body main .section-nav .main__nav .container__main .main__contlink ul .main__listitem a:hover {
                   text-decoration: underline;
                   text-decoration-color: #fff; }
-          body main .container-1 .main__nav .container__main .main__contlink .btn-cont {
+          body main .section-nav .main__nav .container__main .main__contlink .btn-cont {
             -webkit-box-flex: 0;
             flex: 0 0 auto;
             text-align: end;
@@ -4122,7 +4122,7 @@ body {
             -webkit-box-orient: horizontal;
             -webkit-box-direction: reverse;
             flex-flow: row-reverse; }
-            body main .container-1 .main__nav .container__main .main__contlink .btn-cont .btn-info {
+            body main .section-nav .main__nav .container__main .main__contlink .btn-cont .btn-info {
               white-space: nowrap;
               border-radius: 40px;
               font-size: 14px;
@@ -4130,28 +4130,28 @@ body {
               background-color: #fff;
               text-decoration: none;
               color: #23272a; }
-              body main .container-1 .main__nav .container__main .main__contlink .btn-cont .btn-info:hover {
+              body main .section-nav .main__nav .container__main .main__contlink .btn-cont .btn-info:hover {
                 color: #404eed;
                 box-shadow: 1px 19px 30px -14px #000000ba;
                 -webkit-box-shadow: 1px 19px 30px -14px #000000ba;
                 -moz-box-shadow: 1px 19px 30px -14px #000000ba; }
-      body main .container-1 .main__section {
+      body main .section-nav .section-main {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem; }
-        body main .container-1 .main__section .main__continfo {
+        body main .section-nav .section-main .main__continfo {
           height: 100%; }
-          body main .container-1 .main__section .main__continfo .main__fila {
+          body main .section-nav .section-main .main__continfo .main__fila {
             height: 100%; }
-            body main .container-1 .main__section .main__continfo .main__fila .main__info {
+            body main .section-nav .section-main .main__continfo .main__fila .main__info {
               display: flex;
               justify-content: center;
               align-items: center;
               text-align: center;
               margin-right: auto;
               margin-left: auto; }
-              body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido {
+              body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido {
                 z-index: 1; }
-                body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main__h1 {
+                body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main__h1 {
                   text-transform: uppercase;
                   font-weight: 900;
                   margin-bottom: 16px;
@@ -4161,20 +4161,20 @@ body {
                   line-height: 95%;
                   text-rendering: geometricPrecision;
                   font-family: 'Black Han Sans', sans-serif; }
-                body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main__p {
+                body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main__p {
                   font-size: 20px;
                   line-height: 1.625;
                   color: #fff;
                   margin-bottom: 30px;
                   font-weight: 400; }
-                body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main-btn__cont {
+                body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main-btn__cont {
                   display: flex;
                   -webkit-box-align: center;
                   align-items: center;
                   flex-wrap: wrap;
                   -webkit-box-pack: center;
                   justify-content: center; }
-                  body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn1 {
+                  body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn1 {
                     margin-right: 24px;
                     text-decoration: none;
                     color: #23272a;
@@ -4185,15 +4185,15 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center; }
-                    body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn1 .downloadbtn {
+                    body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn1 .downloadbtn {
                       margin-right: 10px;
                       top: 10px; }
-                    body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn1:hover {
+                    body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn1:hover {
                       color: #404eed;
                       box-shadow: 1px 19px 30px -14px #000000ba;
                       -webkit-box-shadow: 1px 19px 30px -14px #000000ba;
                       -moz-box-shadow: 1px 19px 30px -14px #000000ba; }
-                  body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn2 {
+                  body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn2 {
                     text-decoration: none;
                     margin-right: 24px;
                     text-decoration: none;
@@ -4205,19 +4205,19 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center; }
-                    body main .container-1 .main__section .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn2:hover {
+                    body main .section-nav .section-main .main__continfo .main__fila .main__info .main__contenido .main-btn__cont .main__btn2:hover {
                       background-color: #2c2e30;
                       box-shadow: 1px 19px 30px -14px #000000ba;
                       -webkit-box-shadow: 1px 19px 30px -14px #000000ba;
                       -moz-box-shadow: 1px 19px 30px -14px #000000ba; }
-      body main .container-1 .main__montana {
+      body main .section-nav .main__montana {
         position: absolute;
         left: 50%;
         display: block;
         top: auto;
         bottom: 0;
         margin-left: -1280px; }
-      body main .container-1 .main__leftimg {
+      body main .section-nav .main__leftimg {
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -4229,13 +4229,65 @@ body {
         -webkit-transform: none;
         transform: none;
         z-index: 1; }
-      body main .container-1 .main__rightimg {
+      body main .section-nav .main__rightimg {
         position: absolute;
         display: block;
         bottom: 0;
         left: 50%;
         margin-left: 370px;
         z-index: 1; }
+    body main .section-2 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; }
+      body main .section-2 .section-2__fila {
+        margin-top: 50px;
+        margin-bottom: 40px; }
+        body main .section-2 .section-2__fila .section-2__imagen img {
+          border-radius: 6px;
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+          min-height: 300px; }
+        body main .section-2 .section-2__fila .section-2__continfo {
+          height: 420px; }
+          body main .section-2 .section-2__fila .section-2__continfo .section-2__info {
+            max-width: 350px; }
+            body main .section-2 .section-2__fila .section-2__continfo .section-2__info h2 {
+              font-size: 48px;
+              font-weight: 700;
+              margin-top: 18px;
+              line-height: 120%;
+              color: #23272a; }
+            body main .section-2 .section-2__fila .section-2__continfo .section-2__info p {
+              margin-top: 24px;
+              font-size: 20px;
+              color: #23272a; }
+    body main .section-3 {
+      background-color: #f6f6f6; }
+      body main .section-3 .section-3__container {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem; }
+        body main .section-3 .section-3__container .section-3__fila {
+          margin-top: 3rem;
+          margin-bottom: 3rem; }
+          body main .section-3 .section-3__container .section-3__fila .section-3__col .section-3__info {
+            max-width: 350px; }
+            body main .section-3 .section-3__container .section-3__fila .section-3__col .section-3__info h2 {
+              font-size: 48px;
+              margin-top: 50px;
+              font-weight: 700;
+              line-height: 120%;
+              color: #23272a; }
+            body main .section-3 .section-3__container .section-3__fila .section-3__col .section-3__info p {
+              font-size: 20px;
+              margin-top: 1rem;
+              margin-bottom: 1rem; }
+          body main .section-3 .section-3__container .section-3__fila .section-3__image img {
+            border-radius: 6px;
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            min-height: 300px; }
 
 /* ====== Por debajo de 1400px ====== */
 /* ====== Por encima de 1400px ====== */

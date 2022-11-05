@@ -5,9 +5,9 @@ body {
     main {
         height: 100%;
         width: 100%;
-        overflow-x: hidden;
+        background-color: #fff;
 
-        .container-1 {
+        .section-nav {
             position: relative;
             background: #404eed;
             min-height: 626px;
@@ -90,7 +90,7 @@ body {
                 }
             }
 
-            .main__section {
+            .section-main {
                 padding-top: 1.5rem;
                 padding-bottom: 1.5rem;
 
@@ -223,6 +223,95 @@ body {
                 left: 50%;
                 margin-left: 370px;
                 z-index: 1;
+            }
+        }
+
+        .section-2 {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+
+            .section-2__fila {
+                margin-top: 50px;
+                margin-bottom: 40px;
+
+                .section-2__imagen {
+
+                    img {
+                        border-radius: 6px;
+                        max-width: 100%;
+                        height: auto;
+                        width: 100%;
+                        min-height: 300px;
+                    }
+                }
+
+                .section-2__continfo {
+                    height: 420px;
+
+                    .section-2__info {
+                        max-width: 350px;
+
+                        h2 {
+                            font-size: 48px;
+                            font-weight: 700;
+                            margin-top: 18px;
+                            line-height: 120%;
+                            color: #23272a;
+                        }
+
+                        p {
+                            margin-top: 24px;
+                            font-size: 20px;
+                            color: #23272a;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-3 {
+            background-color: #f6f6f6;
+
+            .section-3__container {
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+
+                .section-3__fila {
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+
+                    .section-3__col {
+
+                        .section-3__info {
+                            max-width: 350px;
+
+                            h2 {
+                                font-size: 48px;
+                                margin-top: 50px;
+                                font-weight: 700;
+                                line-height: 120%;
+                                color: #23272a;
+                            }
+
+                            p {
+                                font-size: 20px;
+                                margin-top: 1rem;
+                                margin-bottom: 1rem;
+                            }
+                        }
+                    }
+
+                    .section-3__image {
+
+                        img {
+                            border-radius: 6px;
+                            max-width: 100%;
+                            height: auto;
+                            width: 100%;
+                            min-height: 300px;
+                        }
+                    }
+                }
             }
         }
     }
